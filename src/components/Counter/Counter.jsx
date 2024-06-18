@@ -1,7 +1,7 @@
 import React from "react";
 
 export class Counter extends React.Component {
-    //construtor que carrega o state (estado) do contador e do formulario
+    //Construtor que carrega o state (estado) do contador e do formulario
     constructor() {
         super()
         this.state = { contador: 0, nome: "", senha: "" }
