@@ -24,39 +24,12 @@ header {
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-header nav#nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+section#articles {
     max-width: 1240px;
-    margin: 0 auto;
     padding: 0 2rem;
-    height: 80px;
-}
+    margin: 4rem auto;
 
-header nav#nav-bar .nav {
     display: flex;
-    align-items: center;
-
-    gap: 1rem;
-
-}
-
-header nav#nav-bar ul.nav-list{
-    display: flex;
-    align-items: center;
-
-    list-style: none;
-    gap: 1rem;
-}
-
-header nav#nav-bar ul.nav-list li a {
-    color: #cccc;
-    font-size: 1.2rem;
-    transition: color 0.3s;
-}
-
-header nav#nav-bar ul.nav-list li a:hover{
-    color: white
+    flex-direction: column;
+    gap: 46px;
 }
